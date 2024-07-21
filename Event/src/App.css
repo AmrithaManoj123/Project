@@ -1,0 +1,53 @@
+/* src/App.css */
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-image: url('/background.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  color: #fff;
+}
+
+.App {
+  text-align: center;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  background: rgba(0, 0, 0, 0.7); /* Make navbar semi-transparent */
+  color: #fff;
+  padding: 1rem;
+}
+
+nav .logo a {
+  color: #fff;
+  text-decoration: none;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.event-list {
+  padding: 2rem;
+  text-align: center; 
+}
+
+.event-item {
+  border: 1px solid #ccc;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  background: rgba(255, 255, 255, 0.8); /* Make event items semi-transparent */
+  color: #000; /* Ensure text is readable */
+}
